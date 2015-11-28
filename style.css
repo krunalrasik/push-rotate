@@ -1,20 +1,24 @@
-#rotateElement {
+.container {
   margin: auto;
   border: 1px solid #CC0000;
-  width: 200px;
-  height: 200px;
+  padding: 20px;
+  width: 180px;
   background-color: #CC0000;
   color: white;
-  -webkit-animation: mymove 2s 5; /* Chrome, Safari, Opera */
-  animation: mymove 2s 5;
+  text-align: center;
+}
+
+#translateElement {
+  -webkit-animation: mymove 0.6s 2; /* Chrome, Safari, Opera */
+  animation: mymove 0.6s 2;
 }
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes mymove {
-  50% {-webkit-transform: rotate(360deg);}
+  50% {-webkit-transform: translate(-30%);}
 }
 
 /* Standard syntax */
 @keyframes mymove {
-  50% {transform: rotate(360deg);}
+  50% {transform: translate(-30%);}
 }
