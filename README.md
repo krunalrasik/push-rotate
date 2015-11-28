@@ -1,2 +1,2 @@
-# push-rotate
-A simple rotation animator
+# push-translate
+A simple translation animator
